@@ -1,0 +1,42 @@
+faculty:-
+
+1.Adding a course
+	url-https//localhost:3306/user/course
+	method-Post
+	description-adding a course to the course list.
+
+	course:-{ course_id
+		  course_name
+		  description
+		}
+
+2.Assignment
+	url-https//localhost:3306/user/assignment
+	method-Post
+ 	description-posting the assignment details i,e question,submission date etc.
+	
+        Assignment:-{ Assignment_id
+		      Assignment_name
+		      description
+		    }
+
+student:-
+1.getting course-list
+	url-https//localhost:3306/user/courses
+	method-Get
+	description-List of courses uploaded by faculty.
+
+2.Assignment
+    	url-https//localhost:3306/user/assignment
+	method-Get
+	description-view assignment details.
+
+	url-https//localhost:3306/user/assignment/submit
+	method-Post
+	description-to submit the assignment 
+   
+	Assignment:-{ Assignment_id
+		      file
+		      comments
+		    }
+
