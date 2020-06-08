@@ -1,0 +1,5 @@
+1.single signon should use security like oauth2.
+2.it should support commonly used authentication methods i,e google,facebook etc.
+3.it should be able to work with the cloud.
+4.the UI should be simple enough so that people find it easy to use.
+5.it should support access in mobile devices.
