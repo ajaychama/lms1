@@ -9,7 +9,10 @@ faculty:-
 		  course_name
 		  description
 		}
+        ui response-{message} Course has been added
+		            List of courses.
 
+         
 2.Assignment
 	url-https//localhost:3306/user/assignment
 	method-Post
@@ -25,11 +28,13 @@ student:-
 	url-https//localhost:3306/user/courses
 	method-Get
 	description-List of courses uploaded by faculty.
+        ui response-List of courses.
 
 2.Assignment
     	url-https//localhost:3306/user/assignment
 	method-Get
 	description-view assignment details.
+        ui response-List of assignments to submit
 
 	url-https//localhost:3306/user/assignment/submit
 	method-Post
@@ -39,4 +44,5 @@ student:-
 		      file
 		      comments
 		    }
+	ui response-{message} Assignment has been submitted
 
