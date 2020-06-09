@@ -1,0 +1,5 @@
+1.The End user should be given options like to change some of the design like logo etc.
+2.The End user should be able to create his own departments,specifications etc according to his university needs.
+3.on security aspect the login should take them to their organization login so that they have their own login credentials.
+4.The tables in database for each university will be different based on organization needs.
+5.It should be scalable so that the university can add extra features if required.
